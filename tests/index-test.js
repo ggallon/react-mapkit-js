@@ -1,10 +1,10 @@
-import expect from 'expect'
-import React from 'react'
-import {render, unmountComponentAtNode} from 'react-dom'
+import expect from 'expect';
+import React from 'react';
+import {render, unmountComponentAtNode} from 'react-dom';
 
-import Component from 'src/'
+import ReactMapKit from 'src/components/MapKit';
 
-describe('Component', () => {
+describe('ReactMapKit', () => {
   let node
 
   beforeEach(() => {
@@ -16,7 +16,7 @@ describe('Component', () => {
   })
 
   it('displays a welcome message', () => {
-    render(<Component/>, node, () => {
+    render(<ReactMapKit />, node, () => {
       expect(node.innerHTML).toContain('Welcome to React components')
     })
   })
