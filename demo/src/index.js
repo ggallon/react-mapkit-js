@@ -1,14 +1,16 @@
-import React, {Component} from 'react';
-import {render} from 'react-dom';
+import React, { Component } from 'react';
+import { render } from 'react-dom';
 
-import Example from '../../src';
+import ReactMapKit from '../../src/components/MapKit';
 
 class Demo extends Component {
   render() {
-    return <div>
-      <h1>react-mapkit-js Demo</h1>
-      <Example/>
-    </div>
+    return (
+      <div>
+        <h1>React wrapper for Apple's MapKit JS.</h1>
+        <ReactMapKit/>
+      </div>
+    );
   }
 }
 
