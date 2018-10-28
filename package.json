@@ -1,12 +1,8 @@
 {
-  "name": "react-mapkit-js",
+  "name": "@ggallon/react-mapkit-js",
   "description": "React wrapper for Apple's MapKit JS",
-  "version": "0.1.0",
-  "repository": {
-    "type": "git",
-    "url": "https://ggallon@github.com/ggallon/react-mapkit-js.git"
-  },
   "author": "Gwenaël Galon <gwenael.gallon@mac.com>",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -33,6 +29,10 @@
     "nwb": "0.23.x",
     "react": "^16.6.0",
     "react-dom": "^16.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://ggallon@github.com/ggallon/react-mapkit-js.git"
   },
   "homepage": "https://github.com/ggallon/react-mapkit-js",
   "license": "MIT",
