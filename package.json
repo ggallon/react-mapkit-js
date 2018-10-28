@@ -1,6 +1,6 @@
 {
   "name": "react-mapkit-js",
-  "description": "React wrapper for Apple's MapKit JS.",
+  "description": "React wrapper for Apple's MapKit JS",
   "version": "0.1.0",
   "repository": {
     "type": "git",
@@ -34,7 +34,7 @@
     "react": "^16.6.0",
     "react-dom": "^16.6.0"
   },
-  "homepage": "",
+  "homepage": "https://github.com/ggallon/react-mapkit-js",
   "license": "MIT",
   "keywords": [
     "mapkit",
@@ -43,5 +43,5 @@
     "react-mapkit-js",
     "react mapkit",
     "react-component"
-  ],
+  ]
 }
